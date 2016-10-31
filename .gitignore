@@ -1,0 +1,2 @@
+# excludes build target directory
+target/*
