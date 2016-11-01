@@ -54,7 +54,7 @@ object MultiBroadcastTest {
     // Collect the small RDD so we can print the observed sizes locally.
     observedSizes.collect().foreach(i => println(i))
 
-    spark.stop()
+    // spark.stop()
   }
 }
 // scalastyle:on println

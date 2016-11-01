@@ -74,7 +74,7 @@ object SparkPageRank {
     val output = ranks.collect()
     output.foreach(tup => println(tup._1 + " has rank: " + tup._2 + "."))
 
-    spark.stop()
+    // spark.stop()
   }
 }
 // scalastyle:on println

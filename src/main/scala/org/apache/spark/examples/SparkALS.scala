@@ -139,7 +139,7 @@ object SparkALS {
       println()
     }
 
-    spark.stop()
+    // spark.stop()
   }
 
   private def randomVector(n: Int): RealVector =

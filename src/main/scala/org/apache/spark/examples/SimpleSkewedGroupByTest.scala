@@ -65,7 +65,7 @@ object SimpleSkewedGroupByTest {
     //                           .map{case (k,v) => (k, v.size)}
     //                           .collectAsMap)
 
-    spark.stop()
+    // spark.stop()
   }
 }
 // scalastyle:on println

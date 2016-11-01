@@ -100,7 +100,7 @@ object SparkKMeans {
 
     println("Final centers:")
     kPoints.foreach(println)
-    spark.stop()
+    // spark.stop()
   }
 }
 // scalastyle:on println

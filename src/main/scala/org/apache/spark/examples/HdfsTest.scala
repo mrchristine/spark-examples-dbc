@@ -41,7 +41,7 @@ object HdfsTest {
       val end = System.currentTimeMillis()
       println("Iteration " + iter + " took " + (end-start) + " ms")
     }
-    spark.stop()
+    // spark.stop()
   }
 }
 // scalastyle:on println

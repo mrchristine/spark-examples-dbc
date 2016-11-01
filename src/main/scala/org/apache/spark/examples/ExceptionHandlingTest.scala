@@ -32,6 +32,6 @@ object ExceptionHandlingTest {
       }
     }
 
-    spark.stop()
+    // spark.stop()
   }
 }

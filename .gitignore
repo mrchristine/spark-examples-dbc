@@ -1,2 +1,7 @@
 # excludes build target directory
 target/*
+.idea/
+spark-examples*.iml
+*~
+*.swp
+*.swo

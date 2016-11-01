@@ -52,7 +52,7 @@ object GroupByTest {
 
     println(pairs1.groupByKey(numReducers).count())
 
-    spark.stop()
+    // spark.stop()
   }
 }
 // scalastyle:on println

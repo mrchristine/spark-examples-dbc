@@ -90,7 +90,7 @@ object SparkHdfsLR {
     }
 
     println("Final w: " + w)
-    spark.stop()
+    // spark.stop()
   }
 }
 // scalastyle:on println

@@ -124,7 +124,7 @@ object DFSReadWriteTest {
       .values
       .sum
 
-    spark.stop()
+    // spark.stop()
 
     if (localWordCount == dfsWordCount) {
       println(s"Success! Local Word Count ($localWordCount) " +
